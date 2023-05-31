@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+*{
+    font-family: 'poppins' ,sans-serif;
+}
+body{
+    background-image: url("https://media.licdn.com/dms/image/C4D1BAQHdoaebzrk4MQ/company-background_10000/0/1612337720520?e=1686070800&v=beta&t=bniSX2z5X7OFZNGMznYP9_DJ2cO0DXp4Y0c9ABtxsq4");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 62vh;
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    
+}
+span{
+    color: #0f0e0e;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+header{
+    color: #070707;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.input-field .input{
+    height: 55px;
+    width: 87%;
+    border: none;
+    border-radius: 30px;
+    color: #0f0f0e;
+    font-size: 15px;
+    padding: 0 0 0 45px;
+    background: whitesmoke
+    
+}
+
+
+i{
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: #292727;
+}
+::-webkit-input-placeholder{
+    color: #1e1d1d;
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 30px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.626);
+    
+    background: rgba(224, 139, 139, 0.7);
+    cursor: pointer;
+    transition: .3s ;
+}
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(37, 55, 141, 0.2);
+    text-decoration: underline;
+    background-color: #9b3636;
+    
+}
+
+.two-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #f5efef;
+    font-size: xx-large;
+    margin-top: 9px;
+    font-size: 15px;
+    text-decoration: underline;
+    
+}
+.one{
+    display: flex;
+}
+label a{
+    text-decoration: none;
+    color: #ffffff;
+}

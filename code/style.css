@@ -14,6 +14,8 @@ html{
 }
 
 /* Navigation Bar */
+
+
 #navbar{
     display: flex;
     align-items: center;
@@ -26,12 +28,40 @@ html{
     background-color: black;
     position: absolute;
     top:0px;
-    left:0px;
+    nav-right:0px;
     height: 100%;
     width:100%;
     z-index: -1;
     opacity: 0.7;
+
 }
+
+#container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+#login-button{
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0px;
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(165,42,42);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+  
+#login-button:hover {
+    background-color: #c2451f;
+  }
 
 /* Navigation Bar: Logo and Image */
 #logo{
@@ -71,6 +101,8 @@ html{
 * {
     box-sizing: border-box;
   }
+
+
   
   /* Style the search field */
   form.example input[type=text] {
@@ -267,3 +299,41 @@ footer{
 .center{
     text-align: center;
 }
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-facebook {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+}
+
+.fa-instagram {
+ 
+    background:  #FD1D1D ;
+    
+
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 60px;
+    text-decoration: none;
+    margin: 5px 80px;
+}
+
+
+
